@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>조준형이 만든 계산기 ㅋㅋ</h1>
+    <h1>계산기</h1>
+    <form action="">
+        <input type="text" name="num1">
+        <select name="opearators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        
+        <input type="text" name="num2">
+        <input type="submit" name="submit">
+        <br/>
+        결과값 : {{ result }}
+    </form>
 </body>
 </html>
